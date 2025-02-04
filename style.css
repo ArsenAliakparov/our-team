@@ -1,6 +1,23 @@
 .header{
+    width: 1000px;
+    height: 100px;
+    background-color: #fefffb;
 
 }
+
+.name{
+    display: flex;
+    gap: 10PX;
+}
+.section{
+    width: 1440px;
+height: 184px;
+gap: 0px;
+opacity: 0px;
+background-color: goldenrod;
+
+}
+
 
 .main{
 
@@ -8,5 +25,94 @@
 
 
 .footer{
+    background-color: #0ad6fa;
+    color: #F5F2EC;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Arial, sans-serif;
     
+}
+
+.button{
+font-family: Jost;
+font-size: 16px;
+font-weight: 400;
+line-height: 50px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.button{
+    background-color: blue;
+    height: 50px;
+}
+
+.footer h2{
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.footer-section ul li a {
+    color: #efa70c;
+    text-decoration: none;
+    font-size: 1em;
+    line-height: 1.8;
+}
+.box{
+    width: 1000px;
+    height: 400px;
+}
+#task{ 
+    width: 603px;
+    height: 40px;
+    top: 69px;
+    left: 450px;
+    gap: 100pxpx;
+    border-radius: 5px 0px 0px 0px;
+    border: 1.5px 0px 0px 0px;
+    opacity: 0px;
+}    
+
+.task1{
+    width: 410px;
+height:53px;
+top: 23px;
+left: 705px;
+padding: 15px 25px 15px 25px;
+gap: 10px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+
+}
+.button1{
+   
+
+}
+.menu5{
+    height: 60px;
+    width: 2500px;
+    display: flex;
+    gap: 0px;
+opacity: 0px;
+background-color: blue;
+}
+.menu5 h2{
+    width: 800px;
+height: 52px;
+top: 24px;
+left: 165px;
+gap: 0px;
+opacity: 0px;
+font-family: Jost;
+font-size: 18px;
+font-weight: 600;
+line-height: 26.01px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
